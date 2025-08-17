@@ -101,8 +101,4 @@ EmployeeManagementSystem/
 
 ## 👨‍💻 Author
 
-* Project created by *\[Your Name]* as part of **OOP practice in Java**.
-
----
-
-Do you want me to also **add a sample UML diagram** (class diagram) in the README so it’s visually clear how everything connects?
+* Project created by *\[Abdullah Muhamed]* as part of **OOP practice in Java**.

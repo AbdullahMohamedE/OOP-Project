@@ -8,6 +8,7 @@ public class SalariedEmployee extends Employee implements Displayable{
         bonus = 1000;
         deduction = 300;
     }
+    //A Constructor that inherits this class's initial values  as well as the superclass parameters. 
     public SalariedEmployee (String name, int SSN, double salary, double bonus, double deduction) {
         super(name, SSN);
         this.salary = salary;
@@ -15,6 +16,8 @@ public class SalariedEmployee extends Employee implements Displayable{
         this.deduction = deduction;
     }
 
+
+    // These are some abstract methods implemented from the (Displayable) interface.
     @Override
     public void displayAllDetails() {
         System.out.println("Name: " + super.name);

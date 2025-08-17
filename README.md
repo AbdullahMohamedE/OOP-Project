@@ -1,6 +1,3 @@
-Here’s a clean and structured **README.md** for your OOP Employee Management System project:
-
----
 
 # Employee Management System (OOP Project)
 

@@ -1,7 +1,9 @@
 public abstract class Employee {
     protected String name;
+    //SSN: Social Security Number.
     protected int SSN;
 
+    //Constructors
     public Employee () {
         name = "Ahmed";
         SSN = 123456789;
@@ -20,5 +22,8 @@ public abstract class Employee {
     public void setSSN(int SSN) {
         this.SSN = SSN;
     }
+
+    //An abstract class that will be implemented in all subclasses.
     public abstract double Earning();
+
 }

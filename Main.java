@@ -31,7 +31,7 @@ public class Main {
 
     System.out.println();
 
-    System.out.println("Hourly emp info: ");
+    System.out.println("Hourly Employee info: ");
     HourlyEmployee hourlyEmployee = new HourlyEmployee("Rawan", 223242, 100,40);
     hourlyEmployee.displayAllDetails();
     hourlyEmployee.displayEarning();

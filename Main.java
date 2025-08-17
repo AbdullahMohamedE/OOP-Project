@@ -5,7 +5,7 @@ enum Gender {Male, Female};
 public class Main {
     public static void main(String[] args) {
 
-    CommissionEmployee commissionEmployee = new BasePlusCommissionEmployee("Abdullah", 2323423, 3242, 0.15, 7000);
+    CommissionEmployee commissionEmployee = new CommissionEmployee("Abdullah", 2323423, 3242, 0.15);
 
     System.out.println("CommissionEmployee Info: ");
     commissionEmployee.displayAllDetails();

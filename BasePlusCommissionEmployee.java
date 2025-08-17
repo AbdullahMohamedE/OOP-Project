@@ -1,3 +1,5 @@
+//This class extends the CommissionEmployee class.
+
 public class BasePlusCommissionEmployee extends CommissionEmployee {
 
     double base;
@@ -29,3 +31,4 @@ public class BasePlusCommissionEmployee extends CommissionEmployee {
         this.base = base;
     }
 }
+

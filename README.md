@@ -1,12 +1,108 @@
-# OOP-Project 1 
-An OOP Employee Management System Project. 
+Here’s a clean and structured **README.md** for your OOP Employee Management System project:
 
-The project's purpose is to develop an Employee payment management system. 
-The Employee Class is an abstract class that forms the other classes: 
-The SalariedEmployee class is the class that deals with the salaried employees in the company who have a fixed salary, bonus, and deductions. 
-The HourlyEmployee: salary per hour.
-The CommissionEmployee class: salary by commission.
-The CommissionEmployee class is a superclass for the BasePlusCommissionEmployee class. 
+---
 
-Displayable is an interface that is implemented by the classes: SalariedEmployee, HourlyEmployee, and CommissionEmployee. 
-It has two methods: displayAllDetails() to display the info of every employee. And displayEarning() to display the Earning separately. 
+# Employee Management System (OOP Project)
+
+## 📌 Project Overview
+
+This project is an **Employee Payment Management System** built using **Object-Oriented Programming (OOP)** principles in Java.
+The system models different types of employees and calculates their earnings based on their employment type. It demonstrates **abstraction, inheritance, polymorphism, and interfaces**.
+
+---
+
+## 🏗️ Class Structure
+
+### **Abstract Class: Employee**
+
+* Serves as the base class for all employee types.
+* Contains common attributes and methods for employees.
+
+### **Subclasses**
+
+1. **SalariedEmployee**
+
+   * Represents employees with a fixed salary.
+   * Includes **bonus** and **deductions** in salary calculations.
+
+2. **HourlyEmployee**
+
+   * Represents employees paid based on **hourly wage × hours worked**.
+
+3. **CommissionEmployee**
+
+   * Represents employees paid by **commission percentage × sales amount**.
+   * **Superclass** for `BasePlusCommissionEmployee`.
+
+4. **BasePlusCommissionEmployee**
+
+   * Extends `CommissionEmployee`.
+   * Adds a **base salary** in addition to commission.
+
+---
+
+## 🔗 Interface: Displayable
+
+Implemented by:
+
+* `SalariedEmployee`
+* `HourlyEmployee`
+* `CommissionEmployee`
+
+### Methods
+
+* `displayAllDetails()` → Displays all details of the employee.
+* `displayEarning()` → Displays the earnings of the employee.
+
+---
+
+## ⚙️ Features
+
+✔ Abstract classes and methods
+✔ Inheritance & subclassing
+✔ Interface implementation
+✔ Method overriding (polymorphism)
+✔ Clean separation of concerns
+
+---
+
+## 📂 Project Files Structure
+
+```
+EmployeeManagementSystem/
+│-- Employee.java                 # Abstract class
+│-- SalariedEmployee.java         # Fixed salary employees
+│-- HourlyEmployee.java           # Hourly-based employees
+│-- CommissionEmployee.java       # Commission-based employees
+│-- BasePlusCommissionEmployee.java # Commission + base salary employees
+│-- Displayable.java              # Interface
+│-- Main.java                     # Entry point (program execution)
+```
+
+---
+
+## 🚀 How to Run
+
+1. Clone the project or copy the files into your Java IDE.
+2. Compile all classes.
+3. Run `Main.java`.
+4. View employee details and earnings displayed on the console.
+
+---
+
+## 📖 Concepts Demonstrated
+
+* **Abstraction** → `Employee` as an abstract class.
+* **Inheritance** → `CommissionEmployee` → `BasePlusCommissionEmployee`.
+* **Polymorphism** → Overriding methods in different employee types.
+* **Interfaces** → `Displayable` for standard display behavior.
+
+---
+
+## 👨‍💻 Author
+
+* Project created by *\[Your Name]* as part of **OOP practice in Java**.
+
+---
+
+Do you want me to also **add a sample UML diagram** (class diagram) in the README so it’s visually clear how everything connects?
